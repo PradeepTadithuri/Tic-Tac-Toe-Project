@@ -5,7 +5,11 @@ let gameover = new Audio("game-over.mp3")
 let turn="X"
 let isgameover = false
 const winMsgElement =document.getElementById('winning-msgs')
- 
+
+//start the music while start of programme
+document.addEventListener('DOMContentLoaded', () => {
+    tmusic.play();
+});
 
 // start
 start.addEventListener('click',()=>{
@@ -14,7 +18,7 @@ start.addEventListener('click',()=>{
     tmusic.pause();
     game();
 })
-  tmusic.play()
+ 
 //reset 
 reset.addEventListener('click',()=>{
     let boxtext=document.querySelectorAll('.boxtext');
