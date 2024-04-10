@@ -7,7 +7,13 @@ let isgameover = false
 const winMsgElement =document.getElementById('winning-msgs')
 
 //start the music while start of programme
-document.addEventListener('DOMContentLoaded', () => {
+function playMusic() {
+    return new Promise((resolve, reject) => {
+        document.body.addEventListener('click', resolve, { once: true });
+    });
+}
+
+playMusic().then(() => {
     tmusic.play();
 });
 
