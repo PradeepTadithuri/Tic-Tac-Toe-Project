@@ -8,14 +8,13 @@ const winMsgElement =document.getElementById('winning-msgs')
  
 
 // start
- tmusic.play()
 start.addEventListener('click',()=>{
     turn="X";
     document.getElementsByClassName("info")[0].innerText = "Its "+turn+" turn";
     tmusic.pause();
     game();
 })
-  
+  tmusic.play()
 //reset 
 reset.addEventListener('click',()=>{
     let boxtext=document.querySelectorAll('.boxtext');
