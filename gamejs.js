@@ -8,7 +8,7 @@ const winMsgElement =document.getElementById('winning-msgs')
  
 
 // start
-tmusic.play()
+ tmusic.play()
 start.addEventListener('click',()=>{
     turn="X";
     document.getElementsByClassName("info")[0].innerText = "Its "+turn+" turn";
@@ -24,7 +24,7 @@ reset.addEventListener('click',()=>{
     });
     turn="X";
     isgameover=false
-     window.location.href = '/project/index.html'; 
+     window.location.href = 'index.html'; 
 })
 
 
