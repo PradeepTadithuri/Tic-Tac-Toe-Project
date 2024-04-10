@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic-Tac-Toe</title>
+         <link rel="stylesheet" href="gamecss.css">
+         
+    </head>
+    <body>
+       <div class="animation">
+        <div class="gameContainer">
+          <h1 class="title"><span class="title1">Tic</span>-<span class="title2">Tac</span>-<span class="title3">Toe</span></h1>
+           <div class="board">
+               <div class="row1">
+                  <div class="boxes"><span class="boxtext"></span></div>
+                  <div class="boxes"><span class="boxtext"></span></div>
+                  <div class="boxes"><span class="boxtext"></span></div>
+               </div>
+               <div class="row2">
+                <div class="boxes"><span class="boxtext"></span></div>
+                <div class="boxes"><span class="boxtext"></span></div>
+                <div class="boxes"><span class="boxtext"></span></div>
+               </div>
+               <div class="row3">
+                <div class="boxes"><span class="boxtext"></span></div>
+                <div class="boxes"><span class="boxtext"></span></div>
+                <div class="boxes"><span class="boxtext"></span></div>
+               </div>
+           </div>
+           <div class="btn">
+             <span class="info"></span>
+             <button class="start" id="start"><span class="text">start</span></button>
+           </div>
+        </div>
+      </div>
+      <div class="winning-msg" id="winning-msgs">
+        <div class="winnerText" WinText></div>
+        <button class="reset" id="reset"><span class="text">reset</span></button>
+      </div>
+        <script src="gamejs.js"></script>
+    </body>
+</html> 
