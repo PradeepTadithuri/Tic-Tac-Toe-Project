@@ -24,7 +24,7 @@ reset.addEventListener('click',()=>{
     });
     turn="X";
     isgameover=false
-     window.location.href = 'index.html'; 
+     window.location.href = 'https://pradeeptadithuri.github.io/Tic-Tac-Toe-Project/'; 
 })
 
 
