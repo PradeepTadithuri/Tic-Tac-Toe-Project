@@ -7,9 +7,9 @@ let isgameover = false
 const winMsgElement =document.getElementById('winning-msgs')
 
 //start the music while start of programme
-window.addEventListener('DOMContentLoaded', () => {
+window.onload = function() {
     tmusic.play();
-});
+};
 // start
 start.addEventListener('click',()=>{
     turn="X";
